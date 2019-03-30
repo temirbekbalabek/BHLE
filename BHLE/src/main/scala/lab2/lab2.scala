@@ -56,7 +56,7 @@ case class Cat(_name: String, sound: String = "Miiyaaau") extends Animal with Wa
   override def makeSound(): String = sound
 }
 
-object Lab2 extends App {
+object lab2 extends App {
 
   // Here we will test Dog and Cat classes
 
